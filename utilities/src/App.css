@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.maindiv {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datadiv {
+  width: 60%;
+  height: 90vh;
+  background-color: slategray;
+}
+
+.datadiv h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.data {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.data input {
+  width: 40%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.data button {
+  background: transparent;
+  border: none;
+  outline: none;
+  background-color: tomato;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.data button:hover {
+  background-color: #20bf6b;
+}
+
+ol {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+ol li {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.todocross {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todocross .fa-times {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20bf6b;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: white;
+  cursor: pointer;
+}
+
+.todocross .fa-times :hover {
+  background-color: tomato;
+}
